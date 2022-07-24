@@ -1,0 +1,5 @@
+a = float(input("Altura (m) :"))
+b = float(input("Largura (m):"))
+c = float(a * b)
+d = float(c / 2)
+print(f" altura:{a}(m);\nLargura{b}(m);\nAréa por pintar:{c}(m**2);\n Vai precisar de {d} litros de tinta ")
